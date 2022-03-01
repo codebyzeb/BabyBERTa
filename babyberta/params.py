@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 from typing import Tuple
 
-param2requests = {
+# Not requesting any additional parameters
+param2requests = {}
+param2requests_old = {
     'corpora': [
         # ('aochildes',),
         # ('aonewsela',),

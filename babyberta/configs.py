@@ -9,7 +9,7 @@ class Dirs:
     saved_models = root / 'saved_models'
 
     # probing data can be found at https://github.com/phueb/Zorro/tree/master/sentences
-    probing_sentences = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' / 'babyberta'
+    probing_sentences = root.parent / 'Zorro' / 'sentences' / 'babyberta'
     probing_results = Path.home() / 'Zorro' / 'runs'
 
     # wikipedia sentences file was created using https://github.com/akb89/witokit
